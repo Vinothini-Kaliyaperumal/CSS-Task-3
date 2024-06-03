@@ -1,0 +1,550 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: smooth;
+}
+ul{
+    display: flex;
+    background-color: #f8f9fa;
+    margin-top: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 0px 16px;
+}
+.start{
+    margin-left: 100px;
+    font-size: 18px;
+    color:rgb(68, 55, 55);
+}
+.home{
+    margin-left: 40px;
+    padding: 4px;
+    color: #000000e6;
+    font-size: 15px;
+}
+.about{
+    color: #0000008c;
+    padding:5px;
+    margin-left: 3px;
+    font-size: 15px;
+}
+.shop{
+    color: #0000008c;
+    padding: 5px;
+    font-size: 15px;
+}
+.bxs-down-arrow{
+    font-size: 10px;
+}
+.circle{
+    border: 1px solid black;
+    color:white;
+    background-color: black;
+    font-size:11px;
+    font-weight: bold;
+    margin-left:5px;
+    margin-right:5px;
+    border:1px  black;
+    border-radius:100%;
+    padding-right:5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+.cart{
+    margin-left:550px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 7px;
+    text-align: center;
+}
+.cart:hover{
+    color: white;
+    background-color: black;
+}
+.header{
+    background-color:black;
+    height: 240px;
+    width: 100%;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.list{
+    font-size: 50px;
+}
+.under{
+    color: #ffffff80;
+    margin-top:  -21px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 80px;
+    margin-left: 125px;
+
+}
+.button:hover{
+    color: white;
+    background-color: black;
+}
+.bxs-star{
+    color: gold;
+    margin-left: -7px;
+    margin-top: -6px;
+    padding-top: -5px;
+}
+.box{
+    font-size:small;
+    font-weight: bolder;
+    position: absolute;
+    color:#fffffffa;
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 5px;
+    margin-left:190px;
+
+    width:35px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+}
+.button{
+    padding: 10px;
+    text-align: center;
+    margin-top: 7px;
+    border-radius: 2px solid grey;
+    appearance: auto;
+}
+.main{
+    padding: 10px;
+    border-radius: 10px solid grey;
+    margin-top: 46px;
+}
+.main:hover{
+    background-color: black;
+    color: white;
+}
+.out{
+    margin-top: -12px;
+}
+.run{
+    margin-top: 45px;
+    padding: 10px;
+    border-radius: 2px solid grey;
+}
+.run:hover{
+    color: white;
+    background-color: black;
+}
+.del{
+    color: #6c757d;
+}
+.eleven{
+    border: 1px solid rgb(173, 165, 165);
+    margin-right: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius:3px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+}
+.special{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+}
+.sale{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+}
+.popular{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+}
+.two{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+    margin-top: 20px;
+}
+.three{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+    margin-top: 20px;
+}
+.four{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+    margin-top: 20px;
+}
+.five{
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 344px;
+    border-color: rgb(233, 227, 227);
+    margin-top: 20px;
+}
+.fancy{
+    color: #212529;
+    font-size: 20px;
+    margin-top: 17px;
+}
+.border{
+    margin-top: -2px;
+}
+.tap{
+    margin-top: -2px;
+}
+.para{
+    margin-left: 5px;
+}
+.idea{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin-top: -6px;
+    color: white;
+    text-align: center;
+    padding-top:73px;
+}
+@media  only screen and (max-width:1235px) {
+.input{
+    display:none;
+
+}
+/* .box{
+    margin-left: 100px;
+} */
+}
+
+@media only screen and (max-width:1024px)and (min-width:769px){
+.start{
+   margin-left: 10px;
+}
+.box{
+    margin-left: 110px;
+}
+*{
+    overflow-x: hidden;
+} 
+}
+@media only screen and (max-width:768px){
+.start{
+    margin-left: 10px;
+}
+/* .under{
+    color: #ffffff80;
+    margin: 0px;
+} */
+.header{
+    margin-left: -3px;
+    width: 100%
+}
+.home{
+    display: none;
+}
+.about{
+    display: none;
+}
+.shop{
+    display: none;
+}
+.cart{
+    display: none;
+}
+.input{
+    display: block;
+    margin-left: 500px;
+    font-size: 40px;
+    margin-top: 9px;
+}
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.eleven{
+    width: 170px;
+    margin: -22px;
+}
+.special{
+    width: 170px;
+    margin-top: -22px;
+    margin-left: -120px;
+}
+.sale{
+    width: 170px;
+    margin-left: -113px;
+    margin-top: -22px;
+}
+.popular{
+    width: 170px;
+    margin-top: 31px;
+    margin-left: -18px;
+}
+.two{
+    width: 170px;
+    margin-top: 28px;
+    margin-left: -120px;
+}
+.three{
+    width: 170px;
+    margin-top: 27px;
+    margin-left: -112px;
+}
+.four{
+    width: 170px;
+    margin-left: 110px;
+
+}
+.five{
+    width: 170px;
+}
+.box{
+margin-left: 119px;
+}
+.navbar{
+    margin-left: -2px;
+}
+}
+@media only screen and (max-width:425px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 670px;
+    }
+    .start{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .input{
+        margin-left: 347px;
+    }
+    .header{
+        width: 665px;
+    }
+    .container{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
+    .eleven{
+        margin-left: -29px;
+        margin-top: 0px;
+        width: 200px;
+    }
+    .special{
+        margin-left: 40px;
+        width: 200px;
+        margin-top: 0px;
+    } 
+    .sale{
+        margin-left: -25px;
+        width: 200px;
+        margin-top: 36px;
+    }
+    .popular{
+        margin-left: 42px;
+        width: 200px;
+        margin-top: 36px;
+    }
+    .two{
+        margin-left: -21px;
+        width: 200px;
+        margin-top: 36px;
+    }
+    .three{
+        margin-left: 42px;
+        width: 200px;
+        margin-top: 36px;
+    }
+    .four{
+        margin-left: -21px;
+        width: 200px;
+        margin-top: 36px;
+    }
+    .five{
+        margin-left: 43px;
+        width: 200px;
+        margin-top: 36px;
+    }
+    .box{
+        margin-left: 149px;
+    }
+    .footer{
+        width: 664px;
+    }
+
+}
+
+
+@media only screen and (max-width:375px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 110px;
+    }
+    .input{
+        margin-left: 318px;
+    }
+    .navbar{
+        width: 570px;
+    }
+    .header{
+        width: 570px;
+    }
+    .footer{
+        width: 570px;
+    }
+    .eleven{
+        margin-left: -72px;
+        width: 227px;
+    }
+    .special{
+        margin-left: -13px;
+        width: 227px;
+    }
+    .sale{
+        margin-left: -72px;
+        width: 227px;
+        margin-top: 30px;
+    }
+    .popular{
+        margin-left: -12px;
+        width: 231px; 
+    }
+    .two{
+        margin-left: -72px;
+        width: 227px;
+    }
+    .three{
+        margin-left: -13px;
+        width: 227px; 
+    }
+    .four{
+        margin-left: -72px;
+        width: 227px;
+    }
+    .five{ 
+        margin-left: -13px;
+        width: 227px; 
+    }
+    .box{
+        margin-left: 174px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .start{
+        margin-left: 30px;
+       }
+       .input{
+        margin-left: 260px;
+       }
+       .navbar{
+        width: 570px;
+       }
+       .header{
+        width:570px;
+       }
+       .idea{
+        margin-right: 100px;
+        width: 420px;
+       }
+       .container{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+       }
+       .eleven{
+        width: 220px;
+        margin-left: -60px;
+       }
+       .special{
+        margin-left: -3px;
+        width: 220px;
+       }
+       .sale{
+        width:220px;
+        margin-left: -60px;
+       }
+       .popular{
+        margin-left:-3px;
+        width: 220px;
+        margin-top: 28px;
+       }
+       .two{
+        width: 220px;
+        margin-left: -60px;
+       }
+       .three{
+        margin-left: -3px;
+        width: 220px;
+       }
+       .four{
+        width: 220px;
+        margin-left: -60px;
+       }
+       .five{
+        margin-left: -3px;
+        width: 220px;
+       }
+       .idea{
+        width:557px;
+       }
+       .box{
+        margin-left:169px;
+       }
+    }
+    @media only screen and (max-width:2042px)and (min-width:1233px){
+        .input{
+display: none !important;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
